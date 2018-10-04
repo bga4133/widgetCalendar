@@ -1,0 +1,85 @@
+*{margin: 0;padding: 0;font-family: 'Open Sans';font-weight: 100;font-weight: light;}
+.divContentWidget{
+    background: #ececed;
+    bottom: 0;
+    position:fixed;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divWidget{
+    width: 70%;
+    background: white;
+    height: 12vh;
+    border-radius: 20px;
+    box-shadow: 0px 0px 55px 0px rgba(0,0,0,0.29);
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.divItemRow1{
+    width: 75%;
+    height: 8vh;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.divItemsRow2{
+    width: 25%;
+    height: 12vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.divItemCalendar{
+    width: 24%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.fas{
+    margin-right: 1vh;
+}
+.inputPicker,.selectItem{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 5vh;
+    border: 0;
+    border-right:1px solid silver;
+    text-align: center;
+    padding-right: 5px;
+    line-height: normal;
+}
+.inputPicker:active,.selectItem:active,.inputPicker:focus,.selectItem:focus,option{
+    text-decoration: none;
+    outline: none;
+    line-height: normal;
+}
+.divItemCalendar:nth-child(5){
+    margin-left: -13vh;
+}
+.labelItem{
+    font-family: 'Roboto';
+    font-weight: 100;
+    color: #737373;
+}
+.divItemsRow2 button{
+    width: 100%;
+    height: 15vh;
+    border: 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    outline: none;
+    cursor: pointer;
+    background: #3f51b5;
+    color: white;
+    font-size: 22px;
+}
