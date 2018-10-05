@@ -3,7 +3,7 @@ new TinyPicker({
     startDate: new Date,
     months: 2,
     days: ['Lu','Ma','Mi','Ju','Vi','Sa','Do'],
-    local: 'en-US',
+    local: 'ES',
     allowPast: true,
 }).init();
 new TinyPicker({
@@ -13,7 +13,6 @@ new TinyPicker({
     lastBox: document.getElementById('endDate1'),
     months: 3,
     days: ['Lu','Ma','Mi','Ju','Vi','Sa','Do'],
-    local: 'en-US',
-    err: function(){alert('err');}
+    local: 'ES',
 }).init();
 
